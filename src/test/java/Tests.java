@@ -8,4 +8,10 @@ public class Tests {
     public void testMethod() {
         assertEquals("test", "test");
     }
+    @Test
+    public void exampleTest() {
+        for (int i = 0; i < 100000; ++i) {
+            assertEquals(Main.exampleMethod(i), i);
+        }
+    }
 }
